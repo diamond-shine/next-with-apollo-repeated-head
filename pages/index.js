@@ -8,7 +8,12 @@ import Head from 'next/head'
 export default withData((props) => (
   <App>
     <Head>
-      <style>{`
+      <meta property="og:title" content="Website" />
+      <meta property="og:description" content="website description" />
+      <meta property="og:image" content="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-275329.jpg" />
+      <meta property="og:location" content="es_LA" />
+
+      <style jsx>{`
         body {
           background: #ececec;
           margin: 0;
